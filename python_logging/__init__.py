@@ -1,0 +1,1 @@
+from python_logging.module_test import run_test
