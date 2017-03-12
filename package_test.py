@@ -1,8 +1,12 @@
 import python_logging
+import configparser
 
-log = python_logging.start() 
+config = configparser.ConfigParser()
+config.read("E:\My Documents\GitHub\config\logging_config.cfg")
 
-log.critical("test")
+log = python_logging.start(config)
+
+log.info("test")
 
 for i in range(40):
     log.info("i = %d" % i)
