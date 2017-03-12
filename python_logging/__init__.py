@@ -1,1 +1,1 @@
-from python_logging.module_test import run_test
+from python_logging.module_test import start

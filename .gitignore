@@ -3,3 +3,6 @@
 *.sln
 *.suo
 /__pycache__
+
+# Other Files
+*.log
