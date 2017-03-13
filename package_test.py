@@ -2,7 +2,7 @@ import python_logging
 import configparser
 
 config = configparser.ConfigParser()
-config.read("E:\My Documents\GitHub\config\logging_config.cfg")
+config.read("/python_logging/example_config.cfg")
 
 log = python_logging.start()
 
