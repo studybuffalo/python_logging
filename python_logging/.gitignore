@@ -3,3 +3,7 @@
 *.sln
 *.suo
 /__pycache__
+
+# Other File Types
+*.cfg
+*.log

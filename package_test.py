@@ -4,7 +4,7 @@ import configparser
 config = configparser.ConfigParser()
 config.read("E:\My Documents\GitHub\config\logging_config.cfg")
 
-log = python_logging.start(config)
+log = python_logging.start()
 
 log.info("test")
 
